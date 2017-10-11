@@ -4,3 +4,4 @@
 .vscode
 .dockerignore
 .retry
+settings.json
