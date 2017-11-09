@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER Allen Vailliencourt <allen.vailliencourt@forty8fiftylabs.com>
+LABEL maintainer="Allen Vailliencourt <allen.vailliencourt@forty8fiftylabs.com>"
 # parts of this dockerfile are from here - https://github.com/William-Yeh/docker-ansible/blob/master/alpine3/Dockerfile
 # customized this for AWS usage primarily (adding boto3 dependencies)
 
