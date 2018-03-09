@@ -17,4 +17,6 @@ COPY files/ec2.ini files/ec2.py files/ansible.cfg /etc/ansible/
 
 RUN chmod +x /etc/ansible/ec2.py
 
+WORKDIR /ansible
+
 CMD [ "ansible-playbook", "--version" ]
