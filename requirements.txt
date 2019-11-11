@@ -1,0 +1,5 @@
+pip3
+cffi
+boto
+boto3
+ansible

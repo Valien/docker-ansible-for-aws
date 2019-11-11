@@ -1,5 +1,6 @@
 # docker-ansible-for-aws
-This is built/inspired/modified from the fantastic williamyeh/ansible repo.
+### Updated for Python 3 and Ansible 2.9 (November 11, 2019)
+This is built/inspired/modified from the fantastic `williamyeh/ansible` repo.
 
 Do a simple 
     `docker run --rm valien/docker-ansible-for-aws` to see if the image works and shows Ansible version, etc.
